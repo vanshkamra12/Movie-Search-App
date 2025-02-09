@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎬 Movie Search App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <header class="header">
+        <div class="header-content">
+        <h1 class="title">🎬 Movie Search</h1>
+        <p class="subtitle">Find your favorite movies instantly</p>
+        </div>
+        </header>
+
+        <main>
+        <div class="search-container">
+        <input type="text" class="search-input" placeholder="Search for movies..." autofocus>
+        </div>
+            
+        <div class="loading" style="display: none;">Loading...</div>
+        <div class="movies-grid"></div>
+        </main>
+
+    <div class="modal">
+        <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <div class="modal-body">
+        <img src="" alt="Movie Poster" class="modal-poster">
+        <div class="modal-info">
+        <h2 class="modal-title"></h2>
+        <p class="modal-overview"></p>
+        <div class="modal-details"></div>
+        </div>
+        </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Made with ❤️ by Movie Buffs</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
